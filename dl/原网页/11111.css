@@ -1,0 +1,27 @@
+.da-login-panel .login-form .ctrl1,
+.da-login-panel .register-form .ctrl1 {
+	margin-bottom: 0
+}
+.da-login-panel .login-form .captcha,
+.da-login-panel .register-form .captcha {
+	float: right;
+	width: 100px;
+	height: 28px;
+	margin-top: 7px
+}
+.da-login-panel .login-form .Agreement,
+.da-login-panel .register-form .Agreement {
+	font-size: 12px
+}
+.da-login-panel .login-form .Agreement input,
+.da-login-panel .register-form .Agreement input {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle
+}
+.da-login-panel .login-form .Agreement a,
+.da-login-panel .register-form .Agreement a {
+	color: #00F
+}
