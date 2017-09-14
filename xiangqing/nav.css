@@ -1,0 +1,240 @@
+/* 头：nav -- start */
+
+
+.da-nav{
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	background-color: black;
+	position: relative;
+}
+/*下面是da-nav第一部分:*/
+.da-nav-bar {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.da-nav-bar a:hover {
+	color: #e14958;
+}
+.da-category {
+	float: left;
+	font-size: 16px;
+	width: 220px;
+	background-color: #654579;
+	position: relative;
+	z-index: 100;
+	cursor: pointer;
+}
+.da-category .opened .dd,
+.da-category:hover .dd {
+	display: block;
+}
+.da-category .dt-title {
+	text-align: center;
+	color: #fff;
+}
+.da-category .dd {
+	background-color: #e8e3eb;
+	width: 220px;
+	position: absolute;
+	color: #666;
+	display: none;
+	height: 479px;
+}
+.da-category .ico-down,
+.da-category .ico-up {
+	vertical-align: middle;
+	width: 11px;
+	height: 7px;
+	margin-left: 13px;
+}
+.da-category .ico-down {
+	background: url(img/da-footer/ico_arrow.png) -5px -120px no-repeat;
+	display: none
+}
+
+.da-category .ico-up {
+	background: url(img/da-footer/ico_arrow.png) -25px -120px no-repeat;
+	display: inline-block
+}
+.da-category .ico-category img {
+	width: 18px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-top: -4px;
+}
+
+.da-category dl {
+	padding: 25px 20px 0;
+	border: 1px solid #e8e3eb;
+	height: 93px;
+}
+
+.da-category dl:hover {
+	background-color: #fff;
+	border: 1px solid #654579;
+	border-right-color: #fff;
+	width: 179px;
+}
+.da-category dl:hover .category-sort {
+	border: 1px solid #fff
+}
+
+.da-category dl:hover .category-drop {
+	display: block;
+	border: 1px solid #654579;
+	z-index: -1;
+}
+
+.da-category dt {
+	font-size: 14px;
+	line-height: 16px;
+	padding-bottom: 16px;
+}
+
+.da-category dd {
+	position: relative;
+}
+
+.da-category .category-sort-box {
+	height: 44px;
+	overflow: hidden;
+	font-size: 12px;
+}
+.da-category .category-sort {
+	line-height: 22px;
+	height: 43px;
+	position: relative;
+	padding-right: 12px;
+	padding-bottom: 14px;
+	border-bottom: 1px dotted #d9d9d9;
+	width: 168px;
+}
+.da-category .category-sort a {
+	white-space: nowrap;
+	margin-right: 6px;
+}
+.da-category .ico-arrow-2-4 {
+	border-width: 2px 4px;
+	border-style: solid;
+	border-color: transparent transparent transparent #9e9e9e;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 22px;
+}
+.da-category .hot-brand {
+	padding-bottom: 40px;
+}
+
+.da-category .hot-brand-title {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 40px;
+}
+
+.da-category .hot-brand-box {
+	margin-left: -13px
+}
+.da-category .category-drop {
+	width: 600px;
+	min-height: 443px;
+	overflow: hidden;
+	position: absolute;
+	left: 220px;
+	top: 0;
+	background-color: #fff;
+	padding: 20px 40px 15px;
+	display: none;
+	border: 1px solid #654579;
+}
+
+.da-category .category-data {
+	overflow: hidden
+}
+.da-category .brand-img {
+	float: left;
+	width: 140px;
+	height: 70px;
+	margin-left: 13px;
+}
+
+.da-category .brand-ad,
+.da-category .brand-img-1 {
+	float: right;
+	width: 293px;
+	height: 270px;
+}
+
+.da-category .category-data-1 {
+	overflow: hidden;
+	font-size: 12px;
+}
+
+.da-category .category-data-2 {
+	margin-bottom: 20px;
+}
+
+.da-category .category-data-2:last-child {
+	margin: 0;
+}
+
+.da-category .item {
+	float: left;
+	width: 80px;
+	height: 22px;
+	line-height: 22px;
+	font-weight: 500;
+}
+.da-category .data {
+	overflow: hidden;
+	width: 208px;
+	line-height: 22px;
+}
+
+.da-category .data a {
+	margin-right: 20px;
+	white-space: nowrap;
+}
+
+
+
+
+
+/*下面为da-nav第二部分,da-navigation:*/
+/*.da-navigation {
+	font-size: 14px;
+	position: absolute;
+	padding-left: 200px;
+	
+}
+
+.da-navigation ul li {
+	float:left;
+	margin-left: 60px;
+}
+.da-navigation ul li a {
+	color: #fff;
+	font-size: 16px;
+}
+.da-navigation li a:hover {
+	color: #c4c4c4;
+	text-decoration: none;
+	
+}
+
+.dt-title a{
+	color: #fff;
+	float: left;
+	text-align: center;
+	width: 200px;
+	background:#654579;
+}*/
+
+/* 头：nav -- over */
