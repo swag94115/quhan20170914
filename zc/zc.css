@@ -1,0 +1,453 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 12px;
+}
+ol,ul{
+	list-style: none;
+}
+img {
+	border: 0
+}
+a:hover {
+	text-decoration: underline;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.clearfix {
+	zoom: 1;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+div{
+	display: block;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+}
+input {
+	line-height: normal;
+}
+.arrow-7-5, .da-code, .da-tooltip-text, .login-sign {
+    position: absolute;
+}
+.da-login-panel .login-form .sms, 
+.da-login-panel .login-form .verify, 
+.da-login-panel .register-form .sms,
+ .da-login-panel .register-form .verify {
+    width: 145px;
+    margin-right: 16px;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0 auto;
+}
+
+
+
+/*da-banner头部开始:*/
+.da-banner{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 4;
+}
+.logo{
+	float: left;
+	width: 280px;
+	height: 60px;
+	background: url(img/da-banner/logo.png) no-repeat;
+}
+.da-banner.login-header {
+    padding: 20px 0;
+}
+
+/*da-login-index中间部分开始:*/
+.da-login-bg {
+	background: #f9fbfd;
+	border-top: solid 1px #d8d8d8;
+	margin: 58px 0;
+}
+.da-login-index {
+	width: 1200px;
+	margin: 0 auto;
+	height: 660px;
+	background: url(img/da-login-index/login_bg.png) 80px 40px no-repeat #f9fbfd;;
+}
+.login-ct {
+	width: 390px;
+	height: 446px;
+	float: right;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	padding: 0px 30px;
+	margin-top: 45px;
+	margin-right: 80px
+}
+/*da-login-panel开始:*/
+.da-login-panel h2 {
+	line-height: 30px;
+	border-left: 3px solid #7d589d;
+	font-size: 16px;
+	font-weight: 400;
+	text-indent: 10px;
+	margin-bottom: 24px;
+}
+.da-login-panel .tabs a {
+	display: block;
+	float: left;
+	height: 28px;
+	width: 70px;
+	text-align: center;
+	font-size: 16px;
+	margin-right: 36px;
+}
+.da-login-panel .tabs {
+	width: 282px;
+	border-bottom: 1px solid #7d589d;
+	padding: 0 36px;
+	margin: 0 auto;
+}
+.da-login-panel .tabs a.active {
+	background:url(img/da-login-index/login_arr.png)  0 18px no-repeat;
+}
+
+/*登陆，注册:*/
+.da-login-panel .login-form,
+.da-login-panel .register-form {
+	margin: 40px 0 0 30px;
+	width: 320px;
+	font-size: 15px;
+	/*display: none;*/
+}
+.da-login-panel .login-form .ctrl, 
+.da-login-panel .register-form .ctrl {
+    margin-bottom: 20px;
+}
+form .ctrl{
+	position: relative;
+}
+.da-login-panel .login-form .ctrl p,
+.da-login-panel .register-form .ctrl p {
+	margin-top: 6px;
+	color: #a00
+}
+.da-login-panel .login-form .sms,
+.da-login-panel .login-form .verify,
+.da-login-panel .register-form .sms,
+.da-login-panel .register-form .verify {
+	width: 145px;
+	margin-right: 16px
+}
+.da-login-panel .login-form button,
+.da-login-panel .register-form button {
+	float: right;
+	background: #94d469;
+	border: none;
+	width: 100px;
+	height: 28px;
+	padding: 0;
+	text-align: center;
+	font-size: 13px;
+	color: #fff;
+	margin-top: 7px
+}
+.da-login-panel .login-form button:disabled,
+.da-login-panel .register-form button:disabled {
+	background: #e5e5e5;
+	color: #999
+}
+.
+.da-login-panel .login-form .resent,
+.da-login-panel .register-form .resent {
+	display: none;
+	background: #e5e5e5;
+	color: #999
+}
+.da-login-panel .login-form .submit-btn,
+.da-login-panel .register-form .submit-btn {
+	background: #e14958;
+	width: 320px;
+	height: 40px;
+	margin-top: 16px;
+	font-size: 15px;
+	font-weight: 700
+}
+
+
+.login-ct {
+	width: 390px;
+	height: 446px;
+	float: right;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	padding: 20px 30px;
+	margin-top: 45px;
+	margin-right: 80px
+}
+.da-login-panel .login-form input,
+ .da-login-panel .register-form input {
+    width: 265px;
+    height: 36px;
+    padding-left: 55px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+}
+.da-login-panel .login-form .captcha,
+.da-login-panel .register-form .captcha {
+	float: right;
+	width: 100px;
+	height: 28px;
+	margin-top: 7px
+}
+
+/*登陆:*/
+.login-sign {
+    width: 40px;
+    height: 38px;
+    display: block;
+    top: 1px;
+    left: 1px;
+    border-right: solid 1px #ccc;
+}
+.ico-password,
+.ico-user {
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 19px;
+	margin: 10px 0 0 10px;
+}
+.ico-login {
+	background: url(img/da-login-index/ico-login.png) no-repeat;
+	display: inline-block;
+	vertical-align: middle
+}
+.ico-user {
+	background: url(img/da-login-index/ico-login.png) -29px 0 no-repeat;
+}
+
+.ico-password {
+	background: url(img/da-login-index/ico-login.png) -29px -27px no-repeat;
+}
+
+.ico-msgcode {
+	background: url(img/da-login-index/ico-login.png) -29px -56px no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 23px;
+	margin: 8px 0 0 10px
+}
+.ctrl.current .ico-password,
+.ctrl.current .ico-user {
+	display: block;
+	vertical-align: middle;
+	width: 20px;
+	height: 19px;
+	margin: 10px 0 0 10px
+}
+.ctrl.current input {
+	border: 1px solid #94d469;
+}
+.ctrl.current .login-sign {
+	border-right: solid 1px #94d469
+}
+.ctrl.current .ico-user {
+	background: url(img/da-login-index/ico-login.png) no-repeat
+}
+
+.ctrl.current .ico-password {
+	background: url(img/da-login-index/ico-login.png) 0 -27px no-repeat
+}
+
+.ctrl.current .ico-msgcode {
+	background: url(img/da-login-index/ico-login.png) 0 -56px no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 23px;
+	margin: 8px 0 0 10px
+}
+
+/*注册:*/
+.da-login-panel .login-form .ctrl1,
+.da-login-panel .register-form .ctrl1 {
+	margin-bottom: 0
+}
+.da-login-panel .login-form .captcha,
+.da-login-panel .register-form .captcha {
+	float: right;
+	width: 100px;
+	height: 28px;
+	margin-top: 7px
+}
+.da-login-panel .login-form .Agreement,
+.da-login-panel .register-form .Agreement {
+	font-size: 12px
+}
+.da-login-panel .login-form .Agreement input,
+.da-login-panel .register-form .Agreement input {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle
+}
+.da-login-panel .login-form .Agreement a,
+.da-login-panel .register-form .Agreement a {
+	color: #00F
+}
+.register-form .zhuce{
+	color:#fff;
+}
+
+
+
+
+
+/*da-footer开始:*/
+.ico-arrow {
+	background: url(img/da-footer/ico_arrow.png) no-repeat;
+	display: inline-block;
+	vertical-align: middle
+}
+.da-assure {
+	background-color: #fff;
+	height: 79px;
+	line-height: 79px;
+	border-bottom: solid 1px #e0e0e0;
+	box-shadow: 0 2px 2px #e0e0e0;
+	border-top: solid 1px #d8d8d8;
+}
+
+.da-assure .assure-1,
+.da-assure .ico-assure {
+	background: url(img/da-footer/ico-assure.png) no-repeat
+}
+
+.da-assure ul {
+	width: 960px;
+	margin: 0 auto;
+}
+.da-assure .assure-1,
+.da-assure .assure-2,
+.da-assure .assure-3,
+.da-assure .ico-assure {
+	vertical-align: middle;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 7px;
+}
+
+.da-assure li{
+	float: left;
+	margin-left: 130px;
+	font-size: 14px;
+}
+.da-assure li:first-child{
+	margin-left: 0;
+}
+.da-assure .assure-2{
+	background: url(img/da-footer/ico-assure.png) -36px 0 no-repeat
+}
+.da-assure .assure-3{
+	background: url(img/da-footer/ico-assure.png) -73px 0 no-repeat
+}
+.da-assure .ico-arrow {
+	background-position: -2px -135px;
+	width: 22px;
+	height: 41px;
+	margin-left: 50px
+}
+
+/*第二个div:*/
+.da-investor {
+	width: 1110px;
+	margin: 0 auto;
+	padding: 24px 0 40px 42px;
+	border-bottom: solid 1px #d8d8d8
+}
+
+.da-investor dt {
+	font-size: 18px;
+	line-height: 40px
+}
+
+.da-investor dd {
+	font-size: 14px;
+	line-height: 20px
+}
+
+.da-investor .first {
+	width: 660px;
+	float: left
+}
+
+.da-investor .second {
+	overflow: hidden
+}
+
+/*第三个div:*/
+.da-copyright {
+	text-align: center;
+	padding-bottom: 20px
+}
+
+.da-copyright p {
+	padding: 20px 0 0
+}
+
+.da-copyright table {
+	margin: 20px auto 0;
+	width: 530px
+}
+
+.da-copyright table img,
+.da-copyright table span {
+	width: 114px;
+	height: 41px;
+	border: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
