@@ -1,0 +1,436 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 12px;
+	color: #666666;
+	
+}
+div{
+	display: block;
+}
+ol,ul,li{
+	list-style: none;
+}
+a, a:hover, a:visited {
+	color: #666;
+	text-decoration: none;
+}
+li{
+	text-align: -webkit-match-parent;
+}
+.da-deader, .da-header-inner, sub, sup{
+	position: relative
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+.da-cart .cart-list .td-price .price, .da-cart .cart-list .td-total .total {
+    font-size: 16px;
+}
+button {
+	overflow: visible;
+	background-color: #e14958;
+	border: 1px solid #e14958;
+	color:#fff;
+	display: inline-block;
+	padding: 0;
+	align-items: center;
+}
+
+
+button,input,optgroup,select,textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+	outline: 0
+}
+input {
+	line-height: normal
+}
+
+
+/*da-header头部:*/
+.da-deader{
+    width: auto;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 30px;
+    z-index: 5;
+}
+.da-header-inner {
+	width: 1200px;
+	margin: auto;
+	height: 30px;
+}
+.w1020 {
+    width: 1020px;
+}
+.da-header-inner>a {
+	float: left;
+	line-height: 30px
+}
+.da-header-user{
+	position: absolute;
+	right: 40px;
+	display: inline-block;
+	line-height: 32px;
+}
+.w1020 .da-header-user {
+	right: 190px;
+}
+.da-header-user .line {
+	padding: 0 6px
+}
+.d-da {
+	position: relative
+}
+
+/*da-payment开始:*/
+.da-payment {
+	width: 1020px;
+	margin: 0 auto;
+	padding-bottom: 50px
+}
+/*payment-top开始:*/
+.logo {
+	float: left;
+	display: block;
+	margin-right: 20px;
+	height: 40px;
+	background: url(images/logo.png) no-repeat
+}
+.payment-top .logo {
+	float: left;
+	width: 280px;
+	height: 60px;
+}
+.cart-step {
+	border: 1px solid #e5e5e5;
+	height: 38px;
+	width: 615px;
+	float: right;
+	margin-top: 10px
+}
+.cart-step li.c-pre {
+	color: #d8827e;
+	background-color: #fe9994;
+	z-index: 2;
+	top: -1px
+}
+.cart-step li {
+	color: #cacaca;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	float: left;
+	width: 205px;
+	position: relative
+}
+.cart-step li.c-pre .triangle {
+	display: block;
+	border-color: transparent transparent transparent #fe9994
+}
+.cart-step li .triangle {
+	border-width: 20px 11px;
+	border-style: solid;
+	position: absolute;
+	right: -22px;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	top: 0;
+	display: none
+}
+.cart-step li.c-pre .icon-number {
+	background-color: #d8827e;
+	color: #ecc7c5
+}
+.icon-number {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 50%;
+	margin: 0 10px 0 52px;
+	font-family: arial;
+	font-weight: 700;
+	background-color: #e5e5e5;
+	color: #fff
+}
+.cart-step li.current {
+	color: #fff;
+	background-color: #f25e5a;
+	z-index: 1;
+	top: -1px
+}
+.cart-step li.current .icon-number {
+	background-color: #fff;
+	color: #f25e5a
+}
+.step-3 a{
+	color: #fff;
+}
+
+
+/*payment-callback:提交成功,逾期提示:*/
+.payment-callback {
+	border: 1px solid #e5e5e5;
+	margin-top: 20px;
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 30px
+}
+.payment-callback .ico-success {
+	background: url(img/da-payment/ico_payment.png) no-repeat;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle
+}
+.payment-callback .success-txt {
+	line-height: 50px;
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: middle
+}
+.f14{
+	font-size: 14px;
+}
+.payment-callback .text {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center
+}
+.payment-callback .dingdan {
+	padding-right: 40px
+}
+.payment-callback .order-number {
+	text-decoration: underline
+}
+.rede1 {
+	color: #e14958
+}
+.payment-callback .yingfu {
+	font-size: 24px
+}
+
+
+
+/*payment-way支付方式:*/
+/*payment-platform-pay平台支付开始*/
+.payment-platform-pay {
+	border-bottom: solid 1px #e5e5e5;
+	padding-bottom: 18px
+}
+.payment-way-box .title {
+	padding: 10px 0
+}
+.payment-way .title {
+	font-size: 14px;
+	line-height: 34px;
+	padding-left: 18px
+}
+.payment-cyber-pay .each,
+.payment-platform-pay .each {
+	float: left;
+	width: 196px
+}
+.payment-cyber-pay label,
+.payment-platform-pay label {
+	float: left;
+	width: 184px
+}
+.payment-way-box {
+	border: 1px solid #e5e5e5;
+	padding: 10px 18px
+}
+.payment-way-box label {
+	overflow: hidden;
+	display: block;
+	line-height: 32px
+}
+.payment-way-box input {
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin: 2px 10px 0 2px
+}
+.payment-cyber-pay .text,
+.payment-platform-pay .text {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	margin-left: 25px
+}
+
+
+/*payment-cyber-pay网银支付开始:*/
+.payment-bar {
+	margin-top: 20px
+}
+.payment-btn {
+	text-align: right;
+	width: 1020px;
+	margin: 0 auto
+}
+.payment-bar .amount {
+	margin-right: 6px;
+	text-align: left
+}
+.payment-bar .amount .yingfu {
+	font-size: 17px;
+	display: inline-block
+}
+.payment-bar button {
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	width: 138px;
+	font-size: 16px;
+}
+.payment-bar a{
+	color: #fff;
+}
+
+
+
+/*da-footer开始:*/
+.ico-arrow {
+	background: url(img/da-footer/ico_arrow.png) no-repeat;
+	display: inline-block;
+	vertical-align: middle
+}
+.da-assure {
+	background-color: #fff;
+	height: 79px;
+	line-height: 79px;
+	border-bottom: solid 1px #e0e0e0;
+	box-shadow: 0 2px 2px #e0e0e0;
+	border-top: solid 1px #d8d8d8;
+}
+
+.da-assure .assure-1,
+.da-assure .ico-assure {
+	background: url(img/da-footer/ico-assure.png) no-repeat
+}
+
+.da-assure ul {
+	width: 960px;
+	margin: 0 auto;
+}
+.da-assure .assure-1,
+.da-assure .assure-2,
+.da-assure .assure-3,
+.da-assure .ico-assure {
+	vertical-align: middle;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 7px;
+}
+
+.da-assure li{
+	float: left;
+	margin-left: 130px;
+	font-size: 14px;
+}
+.da-assure li:first-child{
+	margin-left: 0;
+}
+.da-assure .assure-2{
+	background: url(img/da-footer/ico-assure.png) -36px 0 no-repeat
+}
+.da-assure .assure-3{
+	background: url(img/da-footer/ico-assure.png) -73px 0 no-repeat
+}
+.da-assure .ico-arrow {
+	background-position: -2px -135px;
+	width: 22px;
+	height: 41px;
+	margin-left: 50px
+}
+
+/*第二个div:*/
+.da-investor {
+	width: 1110px;
+	margin: 0 auto;
+	padding: 24px 0 40px 42px;
+	border-bottom: solid 1px #d8d8d8
+}
+
+.da-investor dt {
+	font-size: 18px;
+	line-height: 40px
+}
+
+.da-investor dd {
+	font-size: 14px;
+	line-height: 20px
+}
+
+.da-investor .first {
+	width: 660px;
+	float: left
+}
+
+.da-investor .second {
+	overflow: hidden
+}
+
+/*第三个div:*/
+.da-copyright {
+	text-align: center;
+	padding-bottom: 20px
+}
+
+.da-copyright p {
+	padding: 20px 0 0
+}
+
+.da-copyright table {
+	margin: 20px auto 0;
+	width: 530px
+}
+
+.da-copyright table img,
+.da-copyright table span {
+	width: 114px;
+	height: 41px;
+	border: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
