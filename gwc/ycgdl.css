@@ -1,0 +1,228 @@
+.da-sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100%;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	z-index: 150;
+	min-height: 480px;
+	width: 40px
+}
+.sidebar-function {
+	float: left;
+	position: relative;
+	height: 100%;
+	width: 40px;
+}
+.da-sidebar .sb-cart {
+	position: relative;
+	margin-top: 110px;
+	margin-bottom: 22px;
+	padding: 0 0 10px
+}
+.da-sidebar .sidebar-btn {
+    cursor: pointer;
+    display: block;
+}
+.da-sidebar .cut-line {
+	background-color: #515151;
+	width: 22px;
+	height: 1px;
+	overflow: hidden;
+	margin: 0 0 14px 9px
+}
+.da-sidebar .icon_cart {
+	background: url(img/da-sidebar/ico_sidebar.png) -26px top;
+	width: 33px;
+	height: 26px;
+	display: block;
+	margin-bottom: 10px
+}
+.da-sidebar .name {
+	line-height: 16px
+}
+.da-sidebar .icon_number {
+	width: 20px;
+	height: 20px;
+	background-color: #e34755;
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 20px;
+	margin-top: 7px;
+	color: #fff
+}
+.da-sidebar .sb-promo {
+	height: 37px;
+	padding-top: 5px
+}
+.da-sidebar .sidebar-posi {
+	position: relative
+}
+.da-sidebar .icon_promo {
+	background: url(img/da-sidebar/ico_sidebar.png) 6px top;
+	width: 33px;
+	height: 22px;
+	display: block;
+	margin-bottom: 10px
+}
+.da-sidebar .sidebar-posi strong {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 40px;
+	width: 100px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	background: #666
+}
+.da-sidebar .sidebar-posi strong em {
+	position: absolute;
+	right: -5px;
+	top: 15px;
+	display: block;
+	border-color: transparent transparent transparent #666;
+	border-width: 5px 0 5px 5px;
+	border-style: solid
+}
+.da-sidebar .sb-collect {
+	padding-top: 7px;
+	height: 39px
+}
+.da-sidebar .sidebar-posi {
+	position: relative
+}
+.da-sidebar .icon_collect {
+	background: url(img/da-sidebar/ico_sidebar.png) -60px top;
+	width: 32px;
+	height: 25px;
+	display: block;
+	margin-bottom: 8px;
+}
+.da-sidebar .qrcode {
+	background: url(img/da-sidebar/ico-qrcode.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	bottom: 58px;
+	left: 9px
+}
+.da-sidebar .qrcode-pop {
+	position: absolute;
+	width: 109px;
+	height: 138px;
+	border: 1px solid #e5e5e5;
+	border-right: none 0;
+	left: -119px;
+	bottom: -8px;
+	text-align: center;
+	color: #000;
+	display: block;
+	background-color: #fff
+}
+.da-sidebar .qrcode-arrow {
+	position: absolute;
+	border-width: 5px 6px;
+	border-style: solid;
+	border-color: transparent transparent transparent #fff;
+	right: -12px;
+	bottom: 14px
+}
+.da-sidebar .qrcode-img {
+	background: url(img/da-sidebar/cod_da.png) no-repeat;
+	width: 91px;
+	height: 91px;
+	display: block;
+	margin: 10px auto;
+}
+.sidebar-data {
+	overflow: hidden;
+	height: 100%
+}
+.da-sidebar .close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	display: none;
+	width: 16px;
+	height: 16px;
+	background: url(img/da-sidebar/login-close.png);
+	cursor: pointer
+}
+.cart-mini .head {
+	line-height: 50px;
+	text-indent: 20px;
+	text-align: center
+}
+.cart-mini .cart-mini-ct {
+	height: 460px;
+	overflow-x: auto
+}
+.da-sidebar .goTop {
+	width: 30px;
+	height: 30px;
+	display: block;
+	position: absolute;
+	right: 5px;
+	bottom: 10px;
+	overflow: hidden
+}
+.da-sidebar .goTop img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -25px 0 0 -25px
+}
+
+.da-sidebar .sidebar-btn:hover {
+	background-color: #e14958
+}
+.da-sidebar .sidebar-posi:hover strong {
+	display: block
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
